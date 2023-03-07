@@ -1,0 +1,258 @@
+/* Resetamos propiedades */
+*{
+    padding: 0;
+    margin-top:0;
+    box-sizing: border-box;
+    margin-left: 80px;
+    margin-right: 80px;
+	text-align: justify;
+    
+    /* border: 5px solid red;  */
+
+}
+
+a /*LO COLOCAMOS AL INICIO PARA QUE AFECTE A TODA LA PAGINA*/
+{
+    text-decoration: none;
+	text-transform: capitalize;
+}
+h2{
+}
+
+/*BODY*/ /*Le damos color a toda la pagina*/
+body
+{
+    background-color:#ff7b2d;
+
+}
+body h1
+{
+    color: white;
+}
+
+/*HEADER*/
+header
+{
+    padding: 5px;
+    border-radius: 10px;
+	background: linear-gradient(0deg, rgba(188,253,254,1) 0%, rgba(13,230,237,1) 48%, rgba(177,241,246,1) 90%);
+	height: 200px;
+    height: 200px;
+    color: black;
+	
+}
+header section
+{
+	margin-left: 1px;
+	
+}
+header h1
+{
+	margin-left: 5px;
+	margin-top: 5px;
+	color: black;
+
+}
+header p
+{
+	width:78%;
+	height: 60px;
+	font-size: medium;
+	margin-left: 8px;
+}
+
+
+/*NAV*/
+nav
+{
+    color: white;
+    background-color:black;
+    border-radius: 10px;
+    font-size: xx-large;
+	text-align: left;
+	
+	
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 10px;
+    height: 50px;
+	
+
+	
+
+}
+
+nav li
+{
+    display: inline;
+	margin: 1px;
+    font-size: 15px;
+	
+}
+
+nav a
+{
+color: white;
+margin-left: 1px;
+
+
+}
+
+nav li:hover
+{
+    background-color:#ade4ea;
+}
+
+
+/*LATERAL IZQUIERDO*/
+h3
+{
+    border-radius: 10px;
+    background-color:#ade4ea;
+	margin-left: 5px;
+    
+}
+aside
+{
+	float: left;
+	width: 30%;
+	margin-left: 1px;
+	padding-top:20px;
+	height: 20px;
+
+
+}
+aside section
+{
+	background-color: white;
+	border-radius: 10px;
+	padding-top: 10px;
+
+	
+
+}
+aside section ul
+{
+	
+	padding-bottom: 5px;
+	width: 100%;
+	margin-left: 25px;
+	
+}
+aside section li
+{
+	margin-left: 5px;
+	padding-bottom: 5px;
+	border-bottom:2px rgb(37,218,212) dashed;
+	
+}
+aside section a
+{
+	color: black;
+	margin-left: 1px;
+	text-decoration: none;
+	font-size: 11px;
+	/* border: 5px solid red;	
+	 */
+
+}
+
+aside section ul li a 
+{
+	line-height: 50px;
+	
+	
+}
+
+
+
+/*PARTE CENTRAL*/
+main section h2
+{
+	border-radius: 10px;
+	background-color:#ade4ea;
+	height: 70px;
+	padding: 20px;
+
+	
+	
+	
+}
+img 
+{
+	
+	float: right;
+}
+
+
+main
+{
+	background-color: white;
+	border-radius: 10px;
+	float: left;
+	width: 68,5%;
+	margin-left: 26%;
+	
+}
+
+main section
+{
+	padding-top: 30px;
+	clear: both;
+	margin-left: 5px;
+	
+	height: 400px;
+	
+}
+main article
+{
+	border-radius:10px;
+	border:15px cyan solid;
+	float:left;
+	width:30%;
+	
+	margin:5%;
+	margin-left:11%;
+	border-radius:10px;
+	border:15px #00a0bc solid;
+	
+	
+}
+main section article
+{
+	height:320px;
+	padding-top:5px;
+	
+}
+main section a
+{
+	
+	color:#58bed5;
+	text-decoration:underline;
+	text-align: center;
+}
+	
+
+/*FOOTER*/
+
+footer
+{
+	background-color: black;
+	height: 50px;
+	border-radius: 10px;
+	border-top: 10px;
+	clear: left;
+	margin: 20px;
+}
+
+
+footer p
+{
+	padding-top: 12px;
+	float: right;
+	color: white;
+}
+
